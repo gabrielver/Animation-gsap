@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "Ultimate Animations Starter",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
